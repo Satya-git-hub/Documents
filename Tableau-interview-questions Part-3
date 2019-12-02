@@ -1,0 +1,403 @@
+Tableau-interview-questions Part-3
+
+Q.1 What are the variations between Live and Extract Connections?
+
+Live affiliation Vs Extract affiliation
+
+LIVE affiliation 
+It has an online property
+
+Extract Connection
+It offers both online and Offline Connectivity
+
+LIVE affiliation 
+It is addicted to the information Source
+
+Extract Connection
+Independent of the information supply
+
+LIVE affiliation 
+It is freelance of .TDE file
+
+Extract Connection
+Dependent on the.TDE file
+
+LIVE affiliation 
+We have to be compelled to refresh the connection
+
+ Extract Connection
+We want to refresh the Extract file
+
+LIVE affiliation 
+Refreshing Type: Incremental
+
+ Extract Connection
+Full refresh (Incremental additionally possible)
+
+Q.2 What’s Tableau knowledge Engine?
+
+Tableau knowledge engine is that the high-performance analytical knowledge base on our machine. It makes use of the memory on-fly.
+
+After finishing the work, TDE can unleash its memory.
+
+TDE gets mechanically put in at the side of the desktop installation.
+
+Q.3 What’s Tableau Repository?
+
+Tableau repository is that the centralized part of the Tableau Desktop. It’s the situation wherever the entire info of the desktop are keeping the sort of multiple folders.
+
+Q.4 What are the categories of Dimension?
+
+The Dimensions are divided into nine different kinds
+
+Slowly ever-changing Dimension
+Chop-chop ever-changing Dimension
+Unchanged Dimension
+Shrunken Dimension
+Junk Dimension
+Conformed Dimension
+Degenerated Dimension
+Role enjoying Dimension
+Inferred Dimension
+i. Slowly ever-changing Dimension:
+
+If the information within the dimension is ever-changing over an amount of your time then such reasonable dimension is thought as “Slowly ever-changing Dimension”
+
+Example: Student of the worker
+
+ii. Chop-chop ever-changing Dimension:
+
+If the information within the dimension is ever-changing chop-chop (or) ofttimes there such a sort of dimension is thought of as “Rapidly ever-changing Dimension”
+
+Example: Age (Age can modification every and each second, minute and hour)
+
+iii. Unchanged Dimension:
+
+If the information within the dimension is unchanged or the values within the Unchanged Dimension ar constant. So, it’s referred to as “Static Dimension”
+
+Example: Traffic Signals, knowledge Growth
+
+iv. Shrunken Dimension:
+
+The set of 1 dimension is thought as Shrunken Dimension.
+
+Example: Quarter is that the Shrunken Dimension of the year.
+
+A month is that the Shrunken Dimension of the Quarter.
+
+A week is that the Shrunken Dimension of the Month.
+
+v. Junk Dimension:
+
+Junk suggests that unwanted (or) Unrelated. If the dimension containing the unrelated info, then it’s referred to as “Junk Dimension”.
+
+vi. Conformed Dimension:
+
+If one dimension is usually shared by the multiple business areas then such a reasonably dimension is thought as Conformed Dimension.
+
+Example: faculty –> Hospital –> Company
+
+9:00 Am – 7:00 PM (Time)
+
+vii. Degenerated Dimension:
+
+The dimension that contains solely primary keys with none matter info is thought as Degenerated Dimension.
+
+It is the sole dimension table that isn’t having.
+
+viii. Role enjoying Dimension:
+
+If one dimension is enjoying multiple roles within the truth table or if one dimension secret is hooked up to multiple foreign keys within the truth then such a sort of dimension is thought as “Role enjoying Dimension”.
+
+Example: Flipkart
+Date of order
+Date of service
+A Date of delivery
+“DATE” is enjoying multiple roles.
+
+ix. Inferred Dimension:
+
+The empty dimension is called “Inferred Dimension”. It’s usually employed in ETL.
+As the Inferred Dimension doesn’t contain its own primary keys, we are going to produce the synthetic primary keys called “Surrogate Keys
+
+Q.5 That Schema is Best in Performance?
+
+Star Schema because it contains less variety of tables. Invariably begin|the beginning} schema is sweet in performance as a result of start schema contains a lesser variety of tables that the knowledge choice are quicker.
+
+Q.6 Is it attainable to convert snowflake to star schema or not?
+
+Yes, it’s attainable to convert snowflake to star schema by grouping all the size into one logical.
+
+Logical dimension, however, that approach isn’t suggested because it degrades the performance.
+
+Q.7 That Schema you have got enforced in your Recent Project?
+
+Always the snowflake attributable to the complexness of any client’s info (or) Business we tend to designed snowflake
+
+Q.8 That Dimension isn’t Having its own Dimension Table?
+
+Degenerated Dimension
+
+Q.9 What’s VIZQL in Tableau?
+
+Tableau is that the Business Intelligence application that permits the users to form interactive, dynamic visualizations, with the assistance of “VIZQL”
+
+VIZQL: VIZQL could be an image search language
+
+Note: VIZQL=SQL+DL
+
+VIZQL could be a combination of structured search language (SQL) that employ to speak with {the knowledge|the info|the information} and descriptive language (DL) that employ to convert the matter data into the image.
+
+Note: VIZQL is dynamic in nature
+
+VIZQL is that the patent search language by the tableau corporation.
+
+Tableau Interview Questions and Answers for Freshers. Q- 1,2,7,9,
+
+Tableau Interview Questions and Answers for Experience. Q- 3,4,5,6,8,
+
+Q.10 What is the sort Of Measures?
+
+Additive live
+Semi-Additive live
+Non-Additive live
+Additive Measure:
+
+If the live is supporting the aggregate with all the size then such reasonably live is thought as “Additive Measure”.
+
+Semi-Additive Measure:
+
+If the live is supporting the aggregations solely on few of dimensions however not all of them such reasonably live is thought as semi-Additive live.
+
+Non-Additive Measure:
+
+If the live isn’t giving the United States any pregnant Outputs when applying the aggregations with the list of all dimensions then it’s called “Non-Additive Measure”
+
+Q.11 What’s truth Table?
+
+Collection of facts is thought as truth Table. Supported in the categories of facts, truth tables are divided into three sorts
+
+Accumulative truth Table
+Photograph truth Table
+Truthless Fact Table
+Cumulative truth Table:
+
+If {the truth|the very fact|the actual fact} table is containing solely the additive facts these such a sort of fact table is thought as “Cumulative truth Table”
+It contains the periodic info like year wise total sales, state wise average revenues, etc.
+
+Snapshot truth Table:
+
+If {the truth|the very fact|the actual fact} table containing solely semi-additive & non-additive facts then such a sort of fact table is thought of as “Snapshot truth Table”
+It contains instant info like day wise discounts, week wise margins etc.
+
+Factless truth Table:
+
+If {the truth|the very fact|the actual fact} table is containing solely the keys with none facts such a sort of fact tables are thought as truthless Fact Table.
+
+Q.12 What’s WorkBook?
+
+In Tableau, book files are abundant similar to MS-Excel workbooks.
+
+The book is that the instrumentation for all add the Tableau
+
+To create a replacement book click on file new (or) use cntl+n
+
+The book contains:
+
+Data section
+Tableau space
+Read More About Tableau Workbook in detail
+
+Q.13 What are the Default Geographic Roles?
+
+Code (U.S)
+CBSA/MSA (U.S)
+general assembly Districts (U.S)
+Cities
+Country/Region
+County
+States/Provinces
+nada Codes/ communicating Codes
+Q.14 What are The MAP Types?
+
+In Tableau, we tend to ar having 2 sorts of maps
+
+Image Maps
+Crammed Maps
+Symbol Maps: If we tend to indicate every and each geographic location with a logo like a circle or sq. on the map then it’s called “Symbol Maps
+
+Filled Maps: If we tend to indicate every and each geographic location with a crammed portion then it’s called “Filled Map”.
+
+Let’s Create Heat Map in Tableau
+
+Q.15 What’s The Behaviour of Dimension?
+
+Dimension invariably contains distinct values.
+
+Discrete prices suggest that every and each value are freelance of the remaining values.
+
+Q.16 What’s Nested twin Axis?
+
+If we tend to place one twin axis within the opposite is it called “ Nested twin Axis”.
+In maps, it’s attainable to produce the nested twin axis.
+
+Q.17 What are The Background Maps in Tableau?
+
+In Tableau, we tend to ar having 3 sorts of background maps
+
+Offline
+Online
+WMS Server
+i. Offline: In offline tableau gets the backgrounds maps from the native machine. It doesn’t need any net property.
+
+Offline maps are set within the following location.
+
+ii. Online: In on-line Tableau gets the backgrounds map from the remote tableau servers. It needs net property
+
+From tableau eight.2 in online mode, we tend to ar hacking into servers
+
+TABLEAU
+TABLEAU Classic
+From Tableau nine.0 they need integrated all the options of tableau & tableau classics into one server tableau. So, from tableau nine.0 solely tableau on-line choice is obtainable.
+
+iii. WMS Server: WMS Stands for “Web Map Service Server” victimization this selection we are able to connect with third-party servers.
+
+Note:: to vary the background map choice click on “map” choose background map and check either “Offline” or “Online” or”NEO WMS” (Nasa Earth Observation – NEO).
+
+Q.18 What are the Filtering Levels in Tableau?
+
+In Tableau, filtering is performing at 2 levels
+
+Worksheet Level
+Knowledge supply Level (New Feature from eight.0)
+Worksheet Level:
+
+If we tend to perform filtering at the worksheet level tableau can add a filter to solely that worksheet by default.
+
+Data Source:
+
+If we tend to perform filtering at knowledge supply level tableau can apply that filter to all or any the sheets uses that data source.
+
+Read about Tableau Filter Operations in detail
+
+Q.19 What are totally different filtering ways in which at the worksheet levels?
+
+Header
+Marks Card
+Dataview
+Victimization Filter Shelf
+Fast Filter
+Context Filter
+Cascading Filter
+Parameter Filter
+Tableau Interview Questions and Answers for Freshers. Q- 11,15,17,19
+
+Tableau Interview Questions and Answers for Experience. Q- 12,13,14,16,18,20
+
+Q.20 What are the Parameters in Tableau?
+
+Parameters permit the users to pass their own values dynamically.
+
+In Tableau, we are {able to} able to produce the various sorts of parameters like
+
+Integer
+Float
+String
+Boolean
+Data Type
+Date+Time
+Depending on the information sort & parameters we are able to pass the values in 3 ways
+
+All
+List
+Range
+Let’s Study Tableau Parameters in Detail
+
+Q.21 Filtering Across Multiple knowledge Sources?
+
+In Tableau by default, we are able to share filter with just one knowledge supply. If we would like to share the filter across multiple knowledge sources then we’ve to use
+
+Parameters
+Filter Actions
+Note: Parameters are freelance of the information supply
+
+Note: If we tend to use same parameters across multiple worksheets. If we tend to choose price in one worksheet it’ll mechanically get applied within the remaining worksheets.
+
+Q.22 What are the Alerts & Subscriptions?
+
+With the alerts & subscriptions, it’s attainable to grasp the standing of the tableau server mechanically.
+
+To set up this we want an SMTP (Simple Mail Transfer Protocol).
+
+Subscriptions can send the desired content to the subscribes to the mechanically.
+
+Q.23 What’s The Secure Socket Layer?
+
+SSL (Secure Socket Layer) secures the data whereas remodeling over the network, by changing it into the encrypted format when reaching the target it’ll mechanically decipher.
+
+To set up SSL, we want SSl certification file wherever we’ve to get this certification from the third party hosting firms like nortne.etc.
+
+Q.24 What’s Security Assertion Markup Language?
+
+SAML employes to set up the one sign-on.
+
+In the single sign-on, it’s attainable to access multiple servers.
+
+Q.25 What is the Kerberos?
+
+Kerberos is a new feature from tableau eight.3, with Kerberos additionally it’s attainable to set up single-sign-on.
+
+Q.26 What is The Tableau Servers?
+
+Depending on the licensing value tableau serve area divided into a pair of sorts
+
+User primarily based Tableau Server
+Core primarily based Tableau Server
+User primarily based Server:
+
+It provides restricted user access looking on the no.of users & Licences.
+
+Note:: If we tend to take License for ten users at a time, we are able to add website roles to solely this ten users. If we tend to assign any website role to the eleventh user. Tableau assigns mechanically website role as unauthorized.
+
+Core primarily based Server:
+
+It provides unlimited user access at a time we are able to assign website roles to ‘n’ no.of users.
+
+The Licensing value is terribly high for the core bareheaded server.
+
+Note: Core primarily based server contains another “site role” within the name of “eruest”
+
+User primarily based server beginning licensing value is ten,000$ per ten users per one year.
+
+Q.27 Revision History
+
+From Tableau Server nine.3 it’s attainable to perform version dominant in a tableau with the assistance of revision history choice at the time of web site creation.
+Version dominant suggests that maintaining multiple older copies of the identical book if you publish the book with an identical name. It terribly advantages to Rolbasis the initial image when modifying them.
+
+Q.28 What’s Scheduling?
+
+Automation of the manual tasks achieves with the assistance of programming.
+Scheduling perform for two sorts of tasks.
+
+Extract Refreshers: Which is able to perform refreshing of the extract files mechanically.
+
+Subscription: Which is able to send the desired image to subscribers mechanically victimization SMTP.
+
+Q.29 Tableau Server Setup
+
+Installation
+Configuration
+PRE-REQUISITES:
+
+Deployment_type           No.of Users        RAM-Size            No of Cores
+Testing (or) Proof of construct (or) Evaluation    1 (or) 2  4 GB for thirty-two bit    2
+Small                      < 25                     8 GB            four
+Medium                  < 100                    32 GB          eight
+Enterprise               >=100                  >=32 GB       one
+
+So, this was all about Tricky Tableau Interview Questions and Answers Tutorial. Hope you like our explanation.
+
+Tableau Interview Questions and Answers for Freshers. Q- 21,24,27,28,29
+
+Tableau Interview Questions and Answers for Experience. Q- 22,23,25,26
+
