@@ -1,0 +1,199 @@
+SQL Interview Questions and Answers – Part 2
+
+Q.1 What is Normalization? What number of Normalization shapes are there?
+
+Ans. Standardization is used to compose the information in such a way that information repetition will never happen in the database and stay away from embed, refresh and erase irregularities.
+Let’s have a look at RDBMS Concept
+There are 5 types of Normalization in SQL –
+
+First Normal Form (1NF): It expels every single copy segment from the table. Makes a table for related information and distinguishes one of a kind section values.
+Second Normal Form (2NF): Follows 1NF and makes and places information subsets in an individual table and characterizes the connection between tables utilizing essential key.
+Third Normal Form (3NF): Follows 2NF and evacuates those segments which don’t relate through the essential key.
+Fourth Normal Form (4NF): Follows 3NF and don’t characterize multi-valued conditions. 4NF otherwise called BCNF.
+Q.2 What is Relationship? What number of sorts of Relationship are there?
+
+Ans. The relationship can be characterized as the association between in excess of one table in the database.
+
+SQL Interview Questions and Answers
+SQL Interview Questions and Answers – Types of SQL Relationship
+
+There are 4 kinds –
+
+One to One Relationship
+Many to One Relationship
+Many to Many Relationship
+One to Many Relationship
+Q.3 State a few properties of Relational databases?
+
+In relational databases, every segment ought to have an extraordinary name.
+Sequences of lines and segments in social databases are unimportant.
+All qualities are atomic and each column is one of a kind.
+Q.4 What are Nested Triggers?
+
+Triggers may actualize information adjustment rationale by using INSERT, UPDATE, and DELETE articulation. These triggers that contain information adjustment rationale and find different triggers for information change are called Nested Triggers.
+
+Q.5 What is Cursor?
+
+Ans. A SQL cursor is a database object which is used to control data in a row to row way.
+Cursor takes after strides as given beneath –
+
+Declare Cursor
+Open Cursor
+Retrieve row from the Cursor
+Process the row
+Close Cursor
+Deallocate Cursor
+Q.6 What is Collation?
+
+Ans. In collation, there are a set of principles that are used to check the information.
+
+Q.7 What is a primary key?
+
+Ans. Primary key is a value whose qualities exceptionally distinguish each line in a table. Primary key values can never be reused.
+
+You must learn more about SQL Primary and Foreign Key
+
+Q.8 What are foreign keys?
+
+Ans. At the point when a one table’s primary key field is added to related tables keeping in mind the end goal to make the common field which relates the two tables, it called a foreign key in different tables.
+
+Q.9 What is CHECK Constraint?
+
+Ans. A CHECK constraint is used to confine the values or kind of data that can be put away in a column.
+
+3. Tough SQL Interview Questions and Answers
+So, after basic SQL Questions, here are some tough SQL Interview Questions and Answers. Let’s have a look –
+
+Q.1 What is the distinction amongst DELETE and TRUNCATE?
+
+The fundamental contrast in both is DELETE is DML summon and TRUNCATE is DDL.
+DELETE is used to delete a particular column from the table though TRUNCATE is used to expel all lines from the table.
+We can utilize DELETE with WHERE condition yet can’t utilize TRUNCATE with it.
+Q.2 What is the contrast amongst DROP and TRUNCATE?
+
+TRUNCATE expels all lines from the table which can’t be recovered back, DROP expels the whole table from the database and it can’t be recovered back.
+
+Q.3 Distinguish between Nested Subquery and Correlated Subquery?
+
+Ans. Subquery inside another Subquery is called as Nested Subquery. On the off chance that the yield of a subquery is relying upon segment estimations of the parent inquiry table then the question is called Correlated Subquery.
+
+SELECT adminid(SELEC Firstname+' '+Lastname FROM Employee WHERE
+empid=emp. adminid)AS EmpAdminId FROM Employee;
+This question gets subtle elements of a representative from Employee table.
+
+Q.4 What do you mean by Stored Techniques? How would we use it?
+
+Ans. A stored procedure in SQL is basically statements that are collected that are used as the function. We can make these put away procedure already before using it and can execute these them wherever we require and furthermore apply some contingent rationale to it. Put away systems are additionally used to lessen arrange movement and enhance the execution.
+Syntax:
+
+CREATE Technique Technique_Name
+(
+/Parameters
+)
+AS
+Start
+SQL statements in stored methods to refresh/recover records
+END
+Q.5 What do we have to check in Database Testing?
+
+Ans. The following attributes for testing –
+
+Database Connectivity
+Constraint Check
+Required Application Field and its size
+Data Retrieval and Processing With DML operations
+Stored Procedures
+Functional flow
+4. Practical SQL Interview Questions and Answers
+After practicing some tough SQL Interview Questions, let’s move towards the Practical SQL Interview Questions and Answers –
+
+Q.1  How to compose an inquiry to demonstrate the points of interest of an understudy from Students table whose name begins with K?
+
+Ans.
+
+SELECT * FROM Student WHERE Student_Name like '%K';
+Here ‘like’ administrator is used for design coordinating.
+
+Q.2 What is the language structure to add a record to a table?
+
+Ans. To include a record in a table INSERT language syntax is used.
+Ex:
+
+INSERT into table_name VALUES (value1, value2..);
+Q.3 How to choose all records from the table?
+
+Ans. To choose every one of the records from the table we have to utilize the accompanying.
+Syntax:
+
+Select * from table_name;
+Q.4 How we can refresh the view?
+
+Ans. We can use SQL CREATE and REPLACE for refreshing the view.
+Syntax:
+
+CREATE OR REPLACE VIEW view_name AS
+SELECT column_name(s)
+FROM table_name
+WHERE condition
+Q.5 How would you add a section to a table?
+
+Ans. To include another segment in the table, we use AFTER Command.
+
+ALTER TABLE table_name ADD (column_name);
+5. SQL Interview Questions and Answers for Experienced
+Now, let’s see some experience-based SQL Interview Questions and Answers –
+
+Q.1 What is Database White Box Testing?
+
+Database Consistency and ACID properties
+Database triggers and logical views
+Decision Coverage, Condition Coverage, and Statement Coverage
+Database Tables, Data Model, and Database Schema
+Referential integrity rules
+Have a look at SQL create database
+
+Q.2 What is Database Black Box Testing?
+
+Database Black Box Testing includes
+Data Mapping
+Data stored and retrieved
+Use of Black Box techniques such as Equivalence Partitioning and Boundary Value Analysis (BVA)
+Q.3 What are Indexes in SQL?
+
+Ans. We use SQL to retrieve the data more quickly.
+It declares using CREATE statement.
+
+Syntax:
+
+CREATE INDEX index_name
+ON table_name (column_name)
+Or
+CREATE UNIQUE INDEX index_name
+ON table_name (column_name)
+Refresh: Added more inquiries for your training.
+
+Q.4 Is it possible in SQL table to have more than one foreign key?
+
+Ans. Yes, it is possible but it will always have only one primary key.
+
+Q.5 Characterize join and name diverse sorts of joins?
+
+Ans. Join watchword is used to get information from related at least two tables. It returns lines where there is no less than one match in both the tables incorporated into the join. Read more here.
+Kind of joins are:
+
+Right Join
+External Join
+Full Join
+Cross Join
+Self Join.
+Q.6 Explain SQL Delete command.
+
+Delete is used to erase a column or lines from a table in light of the predetermined condition.
+The language SYNTAX is as per the following:
+
+DELETE FROM table_name
+WHERE <Condition>
+So, this was all in the advance SQL Interview Questions and Answers. Hope you like our explanation.
+
+6. Conclusion – Important SQL Interview Questions and Answers
+So, you have completed both the parts of SQL Interview Questions and Answers. If you want us more questions or you have any question to add, then please share with us through comments. All the very best for your upcoming SQL Interviews.
